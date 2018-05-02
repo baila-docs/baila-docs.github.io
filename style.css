@@ -1,0 +1,107 @@
+body {
+	width: 800px;
+	margin: 32px auto;
+	font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+	body {
+		width: 100%;
+		margin: 32px 0;
+	}
+}
+
+h1 {
+	font-family: 'Calibri Light', sans-serif;
+    font-size: x-large;
+}
+
+pre {
+	white-space: pre-wrap; /* css-3 */
+	word-wrap: break-word; /* Internet Explorer 5.5+ */
+	overflow-wrap: break-word;
+	padding: 8px;
+	/*background-color: rgba(0, 0, 0, 0.05);*/
+	color: #F8F8F0;
+	background-color: #272822;
+}
+
+code {
+	padding: 2px 4px;
+	/*background-color: rgba(0, 0, 0, 0.05);*/
+	color: #F8F8F0;
+	background-color: #272822;
+}
+
+/* ******************** */
+
+h_ident {
+	color: #F8F8F0;
+}
+
+h_kwd {
+	color: #F92672;
+	background-color: #272822;
+}
+
+h_type_kwd {
+	color: #66D9EF;
+	font-style: italic;
+	background-color: #272822;
+}
+
+h_literal {
+	color: #AE81FF;
+	background-color: #272822;
+}
+
+h_fcall {
+	color: #A6E22E;
+	background-color: #272822;
+}
+
+h_str {
+	color: #E6DB74;
+	background-color: #272822;
+}
+h_dblstr {
+	color: #E6DB74;
+	background-color: #272822;
+}
+h_litstr {
+	color: #E6DB74;
+	background-color: #272822;
+}
+
+h_comment {
+	color: #A5A290;
+	background-color: #272822;
+}
+
+/* ******************** */
+
+/*h_kwd {
+	color: #0080FF;
+}
+
+h_num {
+	color: #0000FF;
+}
+
+h_fcall {
+	color: #208020;
+}
+
+h_str {
+	color: #DD6000;
+}
+h_dblstr {
+	color: #DD6000;
+}
+h_litstr {
+	color: #DD6000;
+}
+
+h_comment {
+	color: #999999;
+}*/
